@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|PT+Sans|Source+Sans+Pro|Ubuntu&display=swap');
+
+
+/* 
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+ */
+body {
+    /* background-color: white;
+    background-color: hsla(102, 34%, 50%, 0.3); */
+    background-color: hsla(0, 100%, 71%, 0.2);
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 57px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 40px 0 18px 0;
+    /* color: rgb(87, 2, 30); */
+
+}
+
+h2 {
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin: 0 0 0 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* color: rgb(87, 2, 30); */
+    color: rgb(48, 18, 28);
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    /* color: rgb(87, 2, 30); */
+    color: rgb(48, 18, 28);
+    font-weight: bold;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+}
+
+div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.light {
+    /* background-color: hsla(60, 100%, 50%, 0.3); */
+    background-color: hsla(102, 34%, 50%, 0.3);
+
+}
+
+main {
+    background-color: whitesmoke;
+    /* border: 2px solid burlywood; */
+    border: 2px solid pink;
+    padding: 35px;
+    margin: 0 auto;
+}
+
+/* .Hlight {
+    /* background-color: hsla(102, 34%, 50%, 0.3); */
+/* background-color: hsla(60, 100%, 50%, 0.3); */
+/* } */
+
+.cut {
+    margin-top: -50px;
+    margin-bottom: 25px;
+}
+
+.one {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: hsla(60, 100%, 50%, 0.3)
+}
+
+/* .two {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin: 10px auto;
+    font-weight: bold;
+    background-color: hsla(0, 100%, 71%, 0.4);
+} */
+
+/* .quote {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+} */
+
+/* .em {
+    font-weight: bold;
+} */
+
+.first {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    color: rgb(155, 15, 62);
+}
+
+.last {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: rgb(155, 15, 62);
+    text-align: center;
+}
+
+.letter {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(155, 15, 62);
+}
+
+/* finally my github recovered */
