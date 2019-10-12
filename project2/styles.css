@@ -7,3 +7,18 @@ body {
     color: ;
     font-family: ;
 }
+
+.logo {
+    width: 30%;
+    position: absolute;
+   top: 0;
+    left: 0;
+  }
+  
+  .product {
+    max-width: 1000px;
+   position: relative;
+    float: bottom;
+    z-index: -1;
+  }
+  
