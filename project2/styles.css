@@ -3,22 +3,27 @@
 }
 
 body {
-    background-color: rgb(109, 109, 82);
-    color: ;
-    font-family: ;
+    background-color: rgb(245, 245, 232);
+    /* color: rgb(66, 30, 35);
+    font-family: 'Roboto Condensed', sans-serif; */
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 7px;
+    line-height: 11px;
 }
 
 .logo {
     width: 30%;
     position: absolute;
-   top: 0;
+    top: 0;
     left: 0;
-  }
-  
-  .product {
+}
+
+.product {
     max-width: 1000px;
-   position: relative;
+    position: relative;
     float: bottom;
     z-index: -1;
-  }
-  
+}
