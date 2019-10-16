@@ -18,6 +18,7 @@ h2 {
     font-weight: regular;
     font-size: 13px;
     line-height: 11px;
+    position: relative;
 }
 
 h3 {
@@ -25,7 +26,8 @@ h3 {
     font-size: 7px;
     font-weight: light;
     color: rgb(122, 122, 59);
-    margin-bottom: 9.229 px;
+    position: absolute;
+    bottom: 37.162 px;
 }
 
 p {
@@ -37,8 +39,7 @@ p {
     border-top: 0.5px solid rgb(88, 52, 56);
     padding-top: 5.659px;
     margin-right: 105.694px;
-    margin-top: 3.824px;
-
+    position: relative;
 }
 
 
@@ -57,6 +58,7 @@ p {
     color: rgba(109, 82, 82, 74);
     position: relative;
     left: 212.946px;
+    top: 37.991px;
 
 }
 
