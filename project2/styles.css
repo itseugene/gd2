@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:400,500,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:300,400,500,900&display=swap');
 
 * {
     box-sizing: border-box;
+}
+
+.u-button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
 }
 
 body {
@@ -9,62 +20,66 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-main {
-    margin-left: 10.105px;
+.left {
+    margin-left: 15px;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-weight: regular;
-    font-size: 13px;
-    line-height: 11px;
+    font-weight: 500;
+    font-size: 19.5px;
+    line-height: 16.px;
     position: relative;
-}
-
-h3 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 7px;
-    font-weight: light;
-    color: rgb(122, 122, 59);
-    position: absolute;
-    bottom: 37.162 px;
 }
 
 p {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 7px;
-    line-height: 11px;
+    font-size: 10.5px;
+    line-height: 16.5px;
     font-weight: light;
     color: rgb(88, 52, 56);
     border-top: 0.5px solid rgb(88, 52, 56);
-    padding-top: 5.659px;
-    margin-right: 105.694px;
+    padding-top: 8px;
+    margin-right: 158.541px;
     position: relative;
+    bottom: -15px;
+    letter-spacing: 0.6px;
 }
 
 
 .container {
     background-color: rgb(245, 245, 232);
-    height: 476.322px;
-    width: 365.355px;
+    height: 714.483px;
+    width: 548px;
     position: relative;
     z-index: -3;
+}
+
+h3 {
+    display: inline;
+    position: relative;
+    bottom: -22.5px;
+
+}
+
+.short {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 10.5px;
+    font-weight: 300;
+    color: rgb(122, 122, 59);
 }
 
 .cost {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 11.47px;
-    color: rgba(109, 82, 82, 74);
-    position: relative;
-    left: 212.946px;
-    top: 37.991px;
-
+    font-size: 17.2px;
+    color: rgba(109, 82, 82, 74%);
+    left: 223.419px;
 }
 
 .logo {
-    width: 104.869px;
-    height: 32.789px;
+    width: 157.3px;
+    height: 49.1835px;
     position: absolute;
     top: 0;
     left: 0;
@@ -74,21 +89,24 @@ p {
     position: relative;
     float: bottom;
     z-index: -1;
-    width: 365.355px;
-    height: 365.355px;
+    width: 548px;
+    height: 548px;
 }
+
 
 .box {
     font-family: 'Roboto', sans-serif;
-    font-size: 7px;
+    font-size: 10.5px;
     color: rgb(66, 30, 35);
     position: absolute;
     right: 0;
+    border: 0.5px solid rgb(170, 173, 114);
+    /* padding: 12.056px*1.5, 7.472px*1.5, 8.349px*1.5, 7.472px*1.5; */
 }
 
 .nobox {
     font-family: 'Roboto', sans-serif;
-    font-size: 6.91px;
+    font-size: 10.3px;
     font-weight: medium;
     color: white;
     position: relative;
