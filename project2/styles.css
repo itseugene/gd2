@@ -59,7 +59,6 @@ h3 {
     display: inline;
     position: relative;
     bottom: -22.5px;
-
 }
 
 .short {
@@ -81,8 +80,8 @@ h3 {
     width: 157.3px;
     height: 49.1835px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 31.2px;
+    left: 29.7px;
 }
 
 .product {
@@ -93,22 +92,41 @@ h3 {
     height: 548px;
 }
 
+button {
+    position: relative;
+    bottom: 76.65px;
+    float: right;
+    width: 98.3px;
+    height: 32px;
+    border-radius: 16px;
+    z-index: 2;
+}
+
+button:hover {
+    color: rgba(109, 82, 82, 74%);
+    background-color: rgb(88, 52, 56);
+}
 
 .box {
     font-family: 'Roboto', sans-serif;
     font-size: 10.5px;
-    color: rgb(66, 30, 35);
-    position: absolute;
-    right: 0;
-    border: 0.5px solid rgb(170, 173, 114);
-    /* padding: 12.056px*1.5, 7.472px*1.5, 8.349px*1.5, 7.472px*1.5; */
+    text-align: center;
+    margin-bottom: 10.6px;
+    color: white;
+    background-color: rgba(170, 173, 114, 69%);
+    /* padding-top: 10px;
+    padding-bottom: 10px */
+    /* padding-left: 18px;
+    padding-right: 18px; */
+
 }
 
 .nobox {
     font-family: 'Roboto', sans-serif;
     font-size: 10.3px;
+    text-align: center;
     font-weight: medium;
-    color: white;
-    position: relative;
-    right: 0;
+    color: rgb(66, 30, 35);
+    border: 0.5px solid rgb(170, 173, 114);
+
 }
