@@ -15,13 +15,19 @@
     text-align: inherit;
 }
 
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
 body {
     color: rgb(66, 30, 35);
     font-family: 'Roboto Condensed', sans-serif;
-}
-
-.left {
-    margin-left: 15px;
 }
 
 h2 {
@@ -30,6 +36,7 @@ h2 {
     font-size: 19.5px;
     line-height: 16.px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 p {
@@ -39,11 +46,9 @@ p {
     font-weight: light;
     color: rgb(88, 52, 56);
     border-top: 0.5px solid rgb(88, 52, 56);
-    padding-top: 8px;
-    margin-right: 158.541px;
-    position: relative;
-    bottom: -15px;
+    padding-top: 5px;
     letter-spacing: 0.6px;
+    margin-top: 3px;
 }
 
 
@@ -52,13 +57,16 @@ p {
     height: 714.483px;
     width: 548px;
     position: relative;
-    z-index: -3;
+    /* z-index: -3; */
+    border-top-right-radius: 55.5px;
+    border-top-left-radius: 55.5px;
+    border-bottom-right-radius: 55.5px;
 }
 
 h3 {
     display: inline;
-    position: relative;
-    bottom: -22.5px;
+    /* position: relative;
+    bottom: -22.5px; */
 }
 
 .short {
@@ -73,7 +81,8 @@ h3 {
     font-weight: 900;
     font-size: 17.2px;
     color: rgba(109, 82, 82, 74%);
-    left: 223.419px;
+    float: right;
+    margin: 0;
 }
 
 .logo {
@@ -82,27 +91,49 @@ h3 {
     position: absolute;
     top: 31.2px;
     left: 29.7px;
+    z-index: 1;
 }
 
 .product {
     position: relative;
     float: bottom;
-    z-index: -1;
     width: 548px;
     height: 548px;
+    border-top-right-radius: 55.5px;
+    border-top-left-radius: 55.5px;
 }
 
-button {
+.left,
+.right {
+    display: inline-block;
+}
+
+.left {
+    margin-left: 15px;
+    width: 70%;
+}
+
+.right {
+    width: 20%;
+    vertical-align: top;
     position: relative;
-    bottom: 76.65px;
-    float: right;
-    width: 98.3px;
-    height: 32px;
-    border-radius: 16px;
-    z-index: 2;
+
 }
 
-button:hover {
+.box,
+.nobox {
+    /* position: relative; */
+    /* bottom: 76.65px;
+    float: right; */
+    width: 98.3px;
+    /* height: 32px; */
+    border-radius: 16px;
+    display: inline-block;
+    /* margin-right: 11.65px; */
+}
+
+.box:hover,
+.nobox:hover {
     color: rgba(109, 82, 82, 74%);
     background-color: rgb(88, 52, 56);
 }
@@ -128,5 +159,4 @@ button:hover {
     font-weight: medium;
     color: rgb(66, 30, 35);
     border: 0.5px solid rgb(170, 173, 114);
-
 }
