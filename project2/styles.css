@@ -56,12 +56,23 @@ p {
 .container {
     background-color: rgb(245, 245, 232);
     height: 714.483px;
-    width: 548px;
+    /* width: 548px; */
     position: relative;
     border-top-right-radius: 55.5px;
     border-top-left-radius: 55.5px;
     border-bottom-right-radius: 55.5px;
-    box-shadow:
+    box-shadow: -3px 0px 10px rgba(0, 0, 0, 40%),
+        /* above, -3px to the left, 0px to the top 10px spread */
+        3px 0px 10px rgba(0, 0, 0, 40%),
+        /* above, 3px to the right, 0px to the top 10px spread */
+        12px 0px 24px rgba(0, 0, 0, 40%),
+        /* above, 12px to the right, 0px to the top 24px spread */
+        0px 12px 24px rgba(0, 0, 0, 40%);
+    /* above, 0px horizontal, 12px to the bottom 24px spread */
+    min-width: 500px;
+    max-width: 548px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3 {
@@ -133,10 +144,16 @@ a {
 }
 
 .box:hover,
-.nobox:hover {
-    color: rgba(109, 82, 82, 74%);
-    background-color: rgb(88, 52, 56);
+.nobox:hover,
+.withsvg:hover path {
+    color: white;
+    background-color: rgb(119, 119, 83);
+    fill: white;
 }
+
+/* svg:hover path {
+    fill: white;
+} */
 
 .box {
     font-family: 'Roboto', sans-serif;
@@ -149,12 +166,14 @@ a {
     padding-bottom: 10px;
     padding-left: 18px;
     padding-right: 18px;
+    text-decoration: none;
 }
 
 svg {
     height: 6.342px;
     margin-left: 1px;
     display: inline-block;
+    fill: rgb(66, 30, 35);
 }
 
 .nobox {
@@ -170,4 +189,6 @@ svg {
     padding-left: 15px;
     padding-right: 9.5px;
     display: inline-block;
+    text-decoration: none;
+
 }
