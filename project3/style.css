@@ -78,11 +78,10 @@ COLOR PALETTE
 
     .box {
         background-color: var(--color-blue);
-        display: block;
-        min-width: 375px;
+        display: inline-block;
+        width: 375px;
         height: 768px;
-        padding-left: 300%;
-        padding-right: 300%;
+        padding-right: 100%;
         padding-bottom: 700%;
         position: absolute;
         margin-top: 80px;
@@ -195,7 +194,7 @@ COLOR PALETTE
     }
 
     .identity {
-        padding-top: 32px;
+        padding-top: 52px;
         width: 40%;
         padding-bottom: 20px;
     }
@@ -306,7 +305,7 @@ COLOR PALETTE
     input[type="email"]:focus,
     input[type="number"]:focus {
         background-color: var(--color-offwhite);
-        border-bottom-color: var(--color-green);
+        border-bottom: 5px solid var(--color-green);
     }
 
     input[type="radio"]:checked+label,
@@ -324,8 +323,8 @@ COLOR PALETTE
 
     textarea[id="describe"]:focus,
     textarea[id="powers"]:focus {
-        border-color: var(--color-green);
         background-color: var(--color-offwhite);
+        border-bottom: 5px solid var(--color-green);
     }
 
 }
@@ -395,11 +394,10 @@ COLOR PALETTE
     .box {
         background-color: var(--color-blue);
         display: block;
-        min-width: 375px;
+        width: 520px;
         height: 768px;
-        padding-left: 300%;
-        padding-right: 300%;
-        padding-bottom: 580%;
+        padding-bottom: 640%;
+        padding: auto;
         position: absolute;
         margin-top: 80px;
         left: 0;
@@ -517,8 +515,8 @@ COLOR PALETTE
     }
 
     .identity {
-        padding-top: 32px;
-        width: 40%;
+        padding-top: 52px;
+        width: 28%;
         padding-bottom: 20px;
     }
 
@@ -532,11 +530,12 @@ COLOR PALETTE
     .characteristics {
         padding-left: 140px;
         padding-bottom: 20px;
-        width: 62%;
+        width: 88%;
     }
 
     .pna {
         padding-top: 32px;
+        width: 64%;
     }
 
     input,
@@ -630,7 +629,7 @@ COLOR PALETTE
     input[type="email"]:focus,
     input[type="number"]:focus {
         background-color: var(--color-offwhite);
-        border-bottom-color: var(--color-green);
+        border-bottom: 5px solid var(--color-green);
     }
 
     input[type="radio"]:checked+label,
@@ -650,6 +649,7 @@ COLOR PALETTE
     textarea[id="powers"]:focus {
         border-color: var(--color-green);
         background-color: var(--color-offwhite);
+        border: 5px solid var(--color-green);
     }
 
 }
@@ -718,11 +718,9 @@ COLOR PALETTE
     .box {
         background-color: var(--color-blue);
         display: block;
-        width: 389px;
-        height: 768px;
-        padding-left: 300%;
-        padding-right: 300%;
-        padding-bottom: 700%;
+        width: 800px;
+        height: auto;
+        padding-bottom: 380%;
         position: absolute;
         margin-top: 80px;
         left: 0;
@@ -839,7 +837,7 @@ COLOR PALETTE
     }
 
     .identity {
-        padding-top: 32px;
+        padding-top: 52px;
         width: 19%;
         padding-bottom: 20px;
 
@@ -975,7 +973,7 @@ COLOR PALETTE
     input[type="email"]:focus,
     input[type="number"]:focus {
         background-color: var(--color-offwhite);
-        border-bottom-color: var(--color-green);
+        border-bottom: 5px solid var(--color-green);
     }
 
     input[type="radio"]:checked+label,
@@ -994,7 +992,7 @@ COLOR PALETTE
 
     textarea[id="describe"]:focus,
     textarea[id="powers"]:focus {
-        border-color: var(--color-green);
+        border-bottom: 5px solid var(--color-green);
         background-color: var(--color-offwhite);
     }
 }
@@ -1229,7 +1227,7 @@ COLOR PALETTE
     }
 
     .identity {
-        padding-top: 32px;
+        padding-top: 52px;
         width: 14%;
         padding-bottom: 20px;
 
@@ -1367,7 +1365,7 @@ COLOR PALETTE
     input[type="email"]:focus,
     input[type="number"]:focus {
         background-color: var(--color-offwhite);
-        border-bottom-color: var(--color-green);
+        border-bottom: 5px solid var(--color-green);
     }
 
     input[type="radio"]:checked+label,
@@ -1386,7 +1384,7 @@ COLOR PALETTE
 
     textarea[id="describe"]:focus,
     textarea[id="powers"]:focus {
-        border-color: var(--color-green);
+        border-bottom: 5px solid var(--color-green);
         background-color: var(--color-offwhite);
     }
 
@@ -1623,7 +1621,7 @@ COLOR PALETTE
     }
 
     .identity {
-        padding-top: 32px;
+        padding-top: 52px;
         width: 14%;
         padding-bottom: 20px;
 
@@ -1760,7 +1758,7 @@ COLOR PALETTE
     input[type="email"]:focus,
     input[type="number"]:focus {
         background-color: var(--color-offwhite);
-        border-bottom-color: var(--color-green);
+        border-bottom: 5px solid var(--color-green);
     }
 
     input[type="radio"]:checked+label,
@@ -1777,9 +1775,404 @@ COLOR PALETTE
         border-color: 2px solid var(--color-grey);
     }
 
+    textarea[id="describe"]:focus,
+    textarea[id="powers"]:focus {
+        border-bottom: 5px solid var(--color-green);
+        background-color: var(--color-offwhite);
 
+    }
 }
 
+/* ----------------------------------------------------------------------- */
+
+@media(min-width: 1440px) {
+    :root {
+        /*  ==================
+          COLOR PALETTE
+          ==================*/
+
+        --color-red: #c61a3a;
+        --color-green: #71f79f;
+        --color-offblack: #1e2019;
+        --color-grey: #d1d5de;
+        --color-offwhite: #fafafa;
+        --color-blue: #163346;
+        /* Reminder that you can name your variables anything you want, they just have to start with two dashes (--) */
+        /* ㅇㅣ거 하면 이름대로 색 바꿀 수 있음 */
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    .button-reset {
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        padding: 0;
+        text-align: inherit;
+    }
+
+    button[type="submit"] {
+        background-color: var(--color-green);
+        font-family: Teko;
+        font-weight: 600;
+        font-size: 120%;
+        text-transform: uppercase;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 22px;
+        padding-bottom: 18px;
+        margin-left: 312px;
+        margin-bottom: 100px;
+        margin-top: 40px;
+    }
+
+    .content {
+        background-color: var(--color-offblack);
+        width: 1000px;
+        height: auto;
+        margin: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+        position: relative;
+    }
+
+    .box {
+        background-color: var(--color-blue);
+        display: block;
+        width: 1440px;
+        height: auto;
+        padding: auto;
+        padding-bottom: 180%;
+        position: absolute;
+        margin-top: 80px;
+        left: 0;
+    }
+
+    svg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shield {
+        height: 239px;
+        width: auto;
+        /* margin: 68px, 20px, 68px, 40px; */
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .strength {
+        height: 130px;
+        width: auto;
+        top: 1800px;
+        left: 96px;
+        position: absolute;
+    }
+
+    .as {
+        position: absolute;
+        left: 132px;
+        top: 1960px;
+    }
+
+    select[id="strength"] {
+        top: 2020px;
+        margin-left: 0;
+        position: absolute;
+    }
+
+    .speed {
+        height: 130px;
+        width: auto;
+        top: 1780px;
+        position: absolute;
+        left: 388px;
+    }
+
+    .asp {
+        position: absolute;
+        left: 432px;
+        top: 1960px;
+    }
+
+    select[id="speed"] {
+        top: 2020px;
+        margin-left: 300px;
+        position: absolute;
+    }
+
+    .intelligence {
+        height: 130px;
+        width: auto;
+        top: 1780px;
+        position: absolute;
+        left: 676px;
+    }
+
+    .ai {
+        top: 1960px;
+        position: absolute;
+        left: 700px;
+    }
+
+    select[id="intelligence"] {
+        top: 2020px;
+        left: 448px;
+        position: absolute;
+    }
+
+    body {
+        background-color: var(--color-grey);
+        color: white;
+        font-family: BenchNine;
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: 0.5px;
+    }
+
+
+    h1 {
+        font-family: Teko;
+        font-weight: 700;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: var(--color-offblack);
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-family: Teko;
+        font-weight: 400;
+        font-size: 24px;
+        color: var(--color-blue);
+        text-align: center;
+        margin-bottom: 57px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 24px;
+    }
+
+    h3 {
+        font-family: Teko;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--color-offwhite);
+        text-align: left;
+        font-size: 40px;
+        line-height: 0;
+        border-bottom: 4px solid var(--color-blue);
+        padding-bottom: 20px;
+    }
+
+    p {
+        color: var(--color-grey);
+        font-family: BenchNine;
+        font-weight: 400;
+        font-size: 22px;
+        margin: auto;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+
+    .confirmbox {
+        border-top: 4px solid var(--color-blue);
+        width: 70%;
+        padding-top: 40px;
+        margin: auto;
+        margin-top: 420px;
+        display: block;
+    }
+
+    .confirm {
+        color: var(--color-offwhite);
+        font-family: BenchNine;
+        font-weight: 700;
+        font-size: 20px;
+        padding-left: 84px;
+        display: inline-flex;
+        width: 86%;
+    }
+
+    input[id="confirm"] {
+        left: 76px;
+        position: relative;
+    }
+
+    .identity {
+        padding-top: 52px;
+        width: 13%;
+        padding-bottom: 20px;
+
+    }
+
+    .personal {
+
+        padding-top: 60px;
+        margin-bottom: -60px;
+        padding-bottom: 20px;
+    }
+
+    .characteristics {
+        padding-left: 140px;
+        padding-bottom: 20px;
+        width: 41%;
+    }
+
+    .pna {
+        width: 34%;
+    }
+
+    input,
+    textarea {
+        font-family: BenchNine;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: var(--color-grey);
+        display: block;
+        height: 73px;
+        border: 2px solid var(--color-grey);
+    }
+
+    textarea[id="describe"] {
+        width: 360px;
+    }
+
+    input[type="text"] {
+        margin-right: 16px;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        width: 600px;
+    }
+
+    input[type="number"] {
+        width: 109px;
+        height: 68px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        border: 2px solid var(--color-grey);
+        background-color: var(--color-offblack);
+        height: 24px;
+        width: 24px;
+        display: inline-block;
+        margin: auto;
+        margin-right: 4px;
+        margin-left: 2px;
+    }
+
+    input[type="radio"] {
+        border-radius: 50%;
+    }
+
+    fieldset {
+        border: 0;
+        padding: 0;
+    }
+
+    legend {
+        padding-top: 40px;
+    }
+
+    .categories {
+        width: 271px;
+        position: absolute;
+        top: 810px;
+    }
+
+    .gender {
+        position: absolute;
+        top: 810px;
+        height: 346px;
+        right: 60px;
+    }
+
+    .pna {
+        padding-top: 560px;
+        width: 30%;
+    }
+
+
+    select {
+        cursor: pointer;
+        width: 234px;
+        height: 60px;
+        font-family: BenchNine;
+        font-size: 18px;
+        font-weight: 500;
+        /* margin-left: 180px;
+        margin-right: 180px; */
+    }
+
+
+    .selectbox {
+        margin-bottom: 100px;
+    }
+
+    .abilities {
+        /* text-align: left; */
+        padding-bottom: 40px;
+    }
+
+    .category {
+        display: block;
+        padding: 4px;
+        padding-top: 16px;
+    }
+
+    input[type="radio"]:hover,
+    input[type="checkbox"]:hover {
+        border-color: var(--color-green);
+    }
+
+    input[type="radio"]:checked,
+    input[type="checkbox"]:checked {
+        background-color: var(--color-green);
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="number"]:focus {
+        background-color: var(--color-offwhite);
+        border-bottom: 5px solid var(--color-green);
+    }
+
+    input[type="radio"]:checked+label,
+    input[type="checkbox"]:checked+label {
+        color: var(--color-green);
+        text-decoration: underline var(--color-green);
+    }
+
+    textarea[id="powers"] {
+        height: 200px;
+        width: 100%;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        border-color: 2px solid var(--color-grey);
+    }
+
+    textarea[id="describe"]:focus,
+    textarea[id="powers"]:focus {
+        border-bottom: 5px solid var(--color-green);
+        background-color: var(--color-offwhite);
+
+    }
+}
 
 
 
