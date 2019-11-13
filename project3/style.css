@@ -523,13 +523,16 @@ COLOR PALETTE
     }
 
     .personal {
-        border-bottom: none;
+
         padding-top: 60px;
-        margin-bottom: -20px;
+        margin-bottom: -60px;
+        padding-bottom: 20px;
     }
 
     .characteristics {
+        padding-left: 140px;
         padding-bottom: 20px;
+        width: 62%;
     }
 
     .pna {
@@ -843,14 +846,16 @@ COLOR PALETTE
     }
 
     .personal {
-        border-bottom: none;
+
         padding-top: 60px;
-        margin-bottom: -20px;
+        margin-bottom: -60px;
+        padding-bottom: 20px;
     }
 
     .characteristics {
+        padding-left: 140px;
         padding-bottom: 20px;
-        width: 39%;
+        width: 62%;
     }
 
     .pna {
@@ -1225,24 +1230,26 @@ COLOR PALETTE
 
     .identity {
         padding-top: 32px;
-        width: 19%;
+        width: 14%;
         padding-bottom: 20px;
 
     }
 
     .personal {
-        border-bottom: none;
+
         padding-top: 60px;
-        margin-bottom: -20px;
+        margin-bottom: -60px;
+        padding-bottom: 20px;
     }
 
     .characteristics {
+        padding-left: 140px;
         padding-bottom: 20px;
-        width: 39%;
+        width: 46%;
     }
 
     .pna {
-        width: 45%;
+        width: 34%;
     }
 
     input,
@@ -1617,24 +1624,26 @@ COLOR PALETTE
 
     .identity {
         padding-top: 32px;
-        width: 19%;
+        width: 14%;
         padding-bottom: 20px;
 
     }
 
     .personal {
-        border-bottom: none;
+
         padding-top: 60px;
-        margin-bottom: -20px;
+        margin-bottom: -60px;
+        padding-bottom: 20px;
     }
 
     .characteristics {
+        padding-left: 140px;
         padding-bottom: 20px;
-        width: 39%;
+        width: 46%;
     }
 
     .pna {
-        width: 45%;
+        width: 34%;
     }
 
     input,
@@ -1768,11 +1777,7 @@ COLOR PALETTE
         border-color: 2px solid var(--color-grey);
     }
 
-    textarea[id="describe"]:focus,
-    textarea[id="powers"]:focus {
-        border-color: var(--color-green);
-        background-color: var(--color-offwhite);
-    }
+
 }
 
 
