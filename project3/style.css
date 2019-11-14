@@ -2569,7 +2569,7 @@ input[type="number"]:invalid {
 } */
 
 
-/* input[type="text"]:invalid {
+input[type="text"]:invalid {
     /* 아무렇게나 다 됨 그냥 내가 설정하는 대로 */
 }
 
@@ -2584,5 +2584,3 @@ input[type="email"]:not(:placeholder-shown) {
 input[type="email"]:not(:placeholder-shown):invalid {
     /* 무엇을 하든 룰을 깸, 아무일도 일어나지 않음 */
 }
-
-*/
