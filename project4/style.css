@@ -3,12 +3,32 @@ section {
     /* gap between headings and sections */
 }
 
+body {
+    color: white;
+}
+
 .gradient {
-    background-color: #111D27;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#111d27+0,000000+100 */
+    background: #111d27;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #111d27 0%, #000000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #111d27 0%, #000000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #111d27 0%, #000000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#111d27', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+
 }
 
 .body {
     background-image: url("images/bg-08.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+svg {
+    width: 27px;
+    height: auto;
 }
