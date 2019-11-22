@@ -2,3 +2,13 @@ section {
     padding: 100px 30px;
     /* gap between headings and sections */
 }
+
+.gradient {
+    background-color: #111D27;
+}
+
+.body {
+    background-image: url("images/bg-08.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
