@@ -9,6 +9,7 @@ section {
 
 body {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .gradient {
@@ -38,7 +39,37 @@ svg {
 }
 
 .gdl {
+    font-weight: 700;
+    font-size: 50px;
     color: var(--color-white);
 }
 
-.gdlp {}
+.gdlp {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-white);
+}
+
+/* <p> */
+.date {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.location {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.join {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.buy {
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+
+/* speakers */
