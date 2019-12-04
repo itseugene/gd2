@@ -128,21 +128,42 @@ svg {
     color: white;
 }
 
-.img {
-    width: 30%;
+.learn {
+    position: relative;
+
+}
+
+img {
+    width: 90%;
+    height: auto;
+    display: block;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 .name {
     font-size: 20px;
     font-weight: 400;
     text-decoration: underline;
+    margin-bottom: 40px;
 }
 
 .info {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
+    line-height: 8px;
 }
+
+.david,
+.mnight,
+.lauren,
+.shentell {
+    text-align: center;
+    height: auto;
+    display: inline-block;
+}
+
 
 /* schedules */
 
@@ -187,7 +208,6 @@ svg {
     padding-top: 20px;
     font-size: 20px;
     font-weight: 300;
-    display: inline-block;
     margin: 0;
 }
 
@@ -209,7 +229,6 @@ svg {
     padding-top: 60px;
     padding-bottom: 40px;
 }
-
 
 /* copywrite */
 .small {
