@@ -21,7 +21,6 @@ section {
 body {
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
 }
 
 .gradient {
@@ -81,9 +80,10 @@ svg {
 
 .join {
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
-
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .learn {
@@ -98,17 +98,18 @@ svg {
     padding-bottom: 5px;
 }
 
-
-
-
 .buy {
     font-weight: 400;
     font-size: 38px;
     color: white;
-    background: rgb(249, 178, 228);
-    background: linear-gradient(86deg, rgba(249, 178, 228, 1) 0%, rgba(250, 191, 233, 1) 14%, rgba(239, 43, 179, 1) 60%, rgba(20, 29, 39, 1) 180%);
     padding-left: 80px;
     padding-right: 80px;
+}
+
+.buy-bg {
+    box-sizing: content-box;
+    background: rgb(249, 178, 228);
+    background: linear-gradient(86deg, rgba(249, 178, 228, 1) 0%, rgba(250, 191, 233, 1) 14%, rgba(239, 43, 179, 1) 60%, rgba(20, 29, 39, 1) 180%);
 }
 
 /* speakers */
