@@ -2,6 +2,17 @@
     --color-white: #E5FFE1;
 }
 
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
 section {
     padding: 100px 30px;
     /* gap between headings and sections */
@@ -10,6 +21,7 @@ section {
 body {
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .gradient {
@@ -52,24 +64,51 @@ svg {
 
 /* <p> */
 .date {
+    text-align: center;
     font-weight: 700;
     font-size: 25px;
+    background-color: #EF2BB3;
 }
+
 
 .location {
+    text-align: center;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 23px;
+    background-color: #EF2BB3;
 }
+
 
 .join {
+    text-align: center;
     font-weight: 300;
     font-size: 16px;
+
 }
 
+.learn {
+    color: #4097FF;
+    font-weight: 500;
+    font-size: 16px;
+    border: 3px solid #4097FF;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
 .buy {
-    font-weight: 700;
-    font-size: 50px;
+    font-weight: 400;
+    font-size: 38px;
     color: white;
+    background: rgb(249, 178, 228);
+    background: linear-gradient(86deg, rgba(249, 178, 228, 1) 0%, rgba(250, 191, 233, 1) 14%, rgba(239, 43, 179, 1) 60%, rgba(20, 29, 39, 1) 180%);
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 /* speakers */
