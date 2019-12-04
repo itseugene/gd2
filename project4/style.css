@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --color-white: #E5FFE1;
 }
@@ -42,6 +46,7 @@ body {
     background-image: url("images/bg-08.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 
 svg {
@@ -99,17 +104,50 @@ svg {
 }
 
 .buy {
+    text-align: center;
     font-weight: 400;
     font-size: 38px;
     color: white;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
-.buy-bg {
-    box-sizing: content-box;
+.box {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
     background: rgb(249, 178, 228);
     background: linear-gradient(86deg, rgba(249, 178, 228, 1) 0%, rgba(250, 191, 233, 1) 14%, rgba(239, 43, 179, 1) 60%, rgba(20, 29, 39, 1) 180%);
 }
 
 /* speakers */
+
+.speakers {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* schedules */
+
+.schedule {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.meet {
+    font-size: 16px;
+    font-weight: 300;
+}
