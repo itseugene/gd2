@@ -1,3 +1,7 @@
+:root {
+    --color-white: #E5FFE1;
+}
+
 section {
     padding: 100px 30px;
     /* gap between headings and sections */
@@ -32,3 +36,9 @@ svg {
     width: 27px;
     height: auto;
 }
+
+.gdl {
+    color: var(--color-white);
+}
+
+.gdlp {}
