@@ -159,17 +159,24 @@ body {
 
 .speaker-list {
     list-style: none;
+    /* padding-left: 0; */
+    margin: auto;
     padding-left: 0;
 }
 
 .speaker-list li {
     position: relative;
     text-align: center;
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 80px;
 }
 
-h3 {
-    font-size: 25px;
-    font-weight: 700;
+.name {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 40px;
 }
 
 .info {
@@ -182,27 +189,21 @@ h3 {
 img {
     width: 90%;
     height: auto;
-    display: block;
-    padding-left: 30px;
+    /* display: block; */
+    /* padding-left: 30px; */
     padding-bottom: 20px;
+    position: relative;
 }
 
-/* .name {
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: underline;
-    margin-bottom: 40px;
-} */
-
-/* .david,
-.mnight,
-.lauren,
-.shentell {
-    text-align: center;
+.dl,
+.mn,
+.ll,
+.sm {
+    position: absolute;
+    z-index: 1;
+    width: 20%;
     height: auto;
-    display: inline-block;
-    margin-bottom: 80px;
-} */
+}
 
 
 /* schedules */
