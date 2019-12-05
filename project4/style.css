@@ -170,7 +170,12 @@ body {
     display: inline-block;
     width: 49%;
     padding-bottom: 80px;
+    vertical-align: top;
+    /* defult - bottom */
+
 }
+
+
 
 .name {
     font-size: 20px;
@@ -192,7 +197,6 @@ img {
     /* display: block; */
     /* padding-left: 30px; */
     padding-bottom: 20px;
-    position: relative;
 }
 
 .dl,
@@ -207,6 +211,30 @@ img {
     top: 176px;
 }
 
+svg:hover .cls-1,
+svg:hover .cls-2,
+svg:hover .cls-3,
+svg:hover .cls-4 {
+    fill: var(--color-pink);
+}
+
+.more {
+    font-size: 8px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 2;
+    background-image: url(images/icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 41px;
+    text-align: center;
+    padding-top: 11px;
+    padding-left: 7px;
+    color: var(--color-white);
+    line-height: 1.2;
+    text-decoration: none;
+}
 
 /* schedules */
 
