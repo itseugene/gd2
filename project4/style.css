@@ -175,13 +175,11 @@ body {
 
 }
 
-
-
 .name {
     font-size: 20px;
     font-weight: 400;
     text-decoration: underline;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .info {
@@ -194,12 +192,14 @@ body {
 img {
     width: 90%;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
-/* img:hover {
+img:hover {
     opacity: 80%;
-} */
+    /* border: 2px solid white;
+    border-radius: 30%; */
+}
 
 .more {
     font-size: 8px;
@@ -218,6 +218,7 @@ img {
     text-decoration: none;
     right: 30px;
     top: 170px;
+    z-index: 1;
 }
 
 .more:hover {
@@ -238,7 +239,7 @@ img {
     margin: 0;
 }
 
-.oct {
+header {
     border-bottom: 3px solid white;
     padding-bottom: 10px;
     text-align: center;
