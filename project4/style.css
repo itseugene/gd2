@@ -181,7 +181,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     text-decoration: underline;
-    margin-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .info {
@@ -194,46 +194,34 @@ body {
 img {
     width: 90%;
     height: auto;
-    /* display: block; */
-    /* padding-left: 30px; */
     padding-bottom: 20px;
 }
 
-.dl,
-.mn,
-.ll,
-.sm {
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: auto;
-    left: 140px;
-    top: 176px;
-}
-
-svg:hover .cls-1,
-svg:hover .cls-2,
-svg:hover .cls-3,
-svg:hover .cls-4 {
-    fill: var(--color-pink);
-}
+/* img:hover {
+    opacity: 80%;
+} */
 
 .more {
     font-size: 8px;
     font-weight: 400;
     position: absolute;
-    z-index: 2;
     background-image: url(images/icon.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 42px;
     width: 41px;
     text-align: center;
-    padding-top: 11px;
+    padding-top: 12px;
     padding-left: 7px;
     color: var(--color-white);
     line-height: 1.2;
     text-decoration: none;
+    right: 30px;
+    top: 170px;
+}
+
+.more:hover {
+    color: red;
 }
 
 /* schedules */
