@@ -39,7 +39,6 @@ body {
     text-align: center;
     width: 60px;
     height: 60px;
-
     right: 0;
     top: 0;
     position: absolute;
@@ -73,6 +72,12 @@ body {
     position: absolute;
     top: 40px;
     display: inline;
+}
+
+.neon {
+    background-image: url("images/asset.svg");
+    background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .gdl {
