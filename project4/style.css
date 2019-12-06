@@ -290,8 +290,7 @@ li a {
     line-height: 1.2;
     text-decoration: none;
     right: 30px;
-    top: 200px;
-    z-index: 1;
+    bottom: 210px;
 }
 
 .more:hover {
