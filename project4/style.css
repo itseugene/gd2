@@ -297,6 +297,11 @@ header {
     margin-bottom: 100px;
 }
 
+svg:hover path {
+    fill: var(--color-pink);
+    border-color: none;
+}
+
 
 /* copywrite */
 
