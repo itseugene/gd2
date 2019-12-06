@@ -215,6 +215,11 @@ li a {
     background: linear-gradient(86deg, rgba(249, 178, 228, 1) 0%, rgba(250, 191, 233, 1) 14%, rgba(239, 43, 179, 1) 60%, rgba(20, 29, 39, 1) 180%);
 }
 
+.buy:hover {
+    background: white;
+    color: var(--color-pink);
+}
+
 /* speakers */
 
 .speakers {
