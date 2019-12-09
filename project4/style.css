@@ -358,7 +358,7 @@ header {
     position: absolute;
     right: 20px;
     margin: 0;
-    top: 2950px;
+    top: 3150px;
 }
 
 .icon {
@@ -380,6 +380,7 @@ svg:hover path {
 
 .copy {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .small {
@@ -388,14 +389,13 @@ svg:hover path {
     width: 16px;
 }
 
-h3 {
+.cwrite {
     font-weight: 300;
     font-size: 12px;
     text-align: center;
     display: inline;
-    padding-bottom: 30px;
 }
 
 /* ========================================================
 ============================================================ */
-@media
+@media(min-width:375px) {}
