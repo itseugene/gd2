@@ -579,42 +579,124 @@ svg:hover path {
 
     /* ===========================================================================
 ============================================================================ */
-    @media(min-width: 1024px; ) {
+    @media(min-width: 1024px) {
 
-        nav {
-            font-size: 70px;
+        section {
+            padding: 100px 200px;
         }
 
         .navi {
-            padding-left: 44px;
-            padding-right: 0;
-            padding-top: 40px;
-            padding-bottom: 15px;
-            background-color: rgba(239, 43, 180, 0.2);
-            margin-left: -30px;
-            margin-right: -30px;
-            position: relative;
+            padding-left: 210px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: -200px;
+            margin-right: -200px;
             margin-top: -80px;
         }
 
         .navi li {
-            display: inline;
-            padding-right: 20px;
+            padding-right: 30px;
         }
 
         li a {
-            text-decoration: none;
-            color: white;
             font-size: 30px;
         }
 
         .left {
-            border-left: 1px solid white;
-            padding-left: 26px;
+            padding-left: 40px;
+        }
+
+        .big {
+            width: 30px;
+            left: 120px;
+            top: 33px;
+        }
+
+        .login {
+            width: 70px;
+            height: 70px;
+            top: 22px;
+            font-size: 20px;
+            padding-top: 10px;
+            font-weight: 500;
         }
 
         .neon {
-            padding-top: 100px;
+            padding-top: 230px;
         }
 
-    }
+        .gdl {
+            padding-top: 250px;
+            font-size: 80px;
+            width: 90%;
+            padding-bottom: 20px;
+        }
+
+        .gdlp {
+            font-size: 24px;
+        }
+
+        .learn {
+            font-size: 25px;
+            border: 5px solid var(--color-blue);
+            top: 1026px;
+        }
+
+        .pink {
+            margin-top: 80px;
+            margin-left: -200px;
+            margin-right: -200px;
+            padding-bottom: 30px;
+        }
+
+        .date {
+            font-size: 40px;
+            line-height: 0.3;
+        }
+
+        .location {
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        .join {
+            font-size: 30px;
+            width: 110%;
+            margin-left: -20px;
+        }
+
+        .buy {
+            font-size: 60px;
+            margin-left: -300px;
+            margin-right: -300px;
+            padding-right: 250px;
+            padding-left: 250px;
+            margin-top: 100px;
+            margin-bottom: 120px;
+        }
+
+        .speakers {
+            font-size: 60px;
+        }
+
+        .more {
+            bottom: 280px;
+        }
+
+        .schedules {
+            font-size: 60px;
+        }
+
+        .schedule-row {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        heading {
+            padding-bottom: 10px;
+        }
+
+        .sns {
+            top: 4650px;
+            right: 100px;
+        }
