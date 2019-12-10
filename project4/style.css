@@ -106,7 +106,8 @@ li a {
     background-image: url("images/origin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    padding:
+        margin: 0;
 }
 
 .big {
