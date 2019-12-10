@@ -406,11 +406,11 @@ svg:hover path {
 @media(min-width:520px) {
 
     .neon {
-        padding-top: 390px;
+        padding-top: 340px;
     }
 
     .learn {
-        top: 790px;
+        top: 727px;
     }
 
     .join {
@@ -421,7 +421,7 @@ svg:hover path {
     }
 
     .sns {
-        top: 3340px;
+        top: 3140px;
     }
 
 }
@@ -436,9 +436,9 @@ svg:hover path {
     }
 
     .big {
-        width: 20px;
-        top: 55px;
-        left: 45px;
+        width: 25px;
+        top: 24px;
+        left: 36px;
     }
 
     .navi {
@@ -454,17 +454,29 @@ svg:hover path {
         padding-left: 30px;
     }
 
+    .login {
+        top: 18px;
+    }
+
     .neon {
-        padding-top: 260px;
+        padding-top: 480px;
+        margin: 0;
     }
 
     .gdl {
-        font-size: 60px;
+        font-size: 66px;
         padding-top: 140px;
+        padding-bottom: 10px;
+    }
+
+    .gdlp {
+        font-size: 20px;
     }
 
     .learn {
-        top: 870px;
+        top: 1097px;
+        font-size: 20px;
+        right: 55px;
     }
 
     .pink {
@@ -472,7 +484,7 @@ svg:hover path {
         padding-bottom: 15px;
         margin-left: -50px;
         margin-right: -50px;
-        margin-top: 60px;
+        margin-top: 100px;
     }
 
     .date {
@@ -499,19 +511,110 @@ svg:hover path {
         font-size: 22px;
     }
 
+    .info {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+
     .more {
         font-size: 13px;
         height: 71px;
         width: 70px;
         right: 30px;
-        bottom: 280px;
+        bottom: 260px;
         padding-top: 21px;
         padding-left: 12px;
     }
 
+    .schedule {
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+
+    .meet {
+        font-size: 23px;
+        padding-bottom: 90px;
+    }
+
+    header {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .schedule-row {
+        border-bottom: 2px solid white;
+    }
+
+    .time {
+        padding-right: 30px;
+        padding-left: 10px;
+        line-height: 2;
+        padding-bottom: 50px;
+    }
+
+    .six .time {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+
+    .content {
+        padding-left: 40px;
+        font-size: 23px;
+    }
+
     .sns {
-        top: 3600px;
+        top: 4440px;
         right: 60px;
     }
 
-}
+    .facebook,
+    .instagram,
+    .twitter {
+        width: 34px;
+    }
+
+    .cwrite {
+        font-size: 16px;
+    }
+
+    /* ===========================================================================
+============================================================================ */
+    @media(min-width: 1024px; ) {
+
+        nav {
+            font-size: 70px;
+        }
+
+        .navi {
+            padding-left: 44px;
+            padding-right: 0;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: rgba(239, 43, 180, 0.2);
+            margin-left: -30px;
+            margin-right: -30px;
+            position: relative;
+            margin-top: -80px;
+        }
+
+        .navi li {
+            display: inline;
+            padding-right: 20px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+
+        .left {
+            border-left: 1px solid white;
+            padding-left: 26px;
+        }
+
+        .neon {
+            padding-top: 100px;
+        }
+
+    }
