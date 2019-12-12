@@ -131,9 +131,16 @@ li a {
     font-size: 50px;
     color: var(--color-white);
     display: block;
-    width: 70%;
     margin: 0;
     padding-top: 40px;
+}
+
+.gdlg {
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color-white);
+    display: block;
+    margin: 0;
 }
 
 .gdlp {
@@ -198,8 +205,11 @@ li a {
     padding-left: 60px;
     padding-right: 60px;
     margin-top: 30px;
-    line-height: 1.5;
     margin-bottom: 0;
+}
+
+.share {
+    margin-top: 10px;
 }
 
 .buy {
@@ -209,10 +219,7 @@ li a {
     font-size: 38px;
     color: white;
     margin-top: -80px;
-    margin-left: -30px;
-    margin-right: -30px;
-    padding-left: 30%;
-    padding-right: 30%;
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 30px;
@@ -405,19 +412,14 @@ svg:hover path {
 ============================================================ */
 @media(min-width:520px) {
 
-    .neon {
-        padding-top: 340px;
-    }
-
     .learn {
-        top: 727px;
+        top: 700px;
     }
 
     .join {
 
         padding-left: 63px;
         padding-right: 63px;
-        line-height: 1.5;
     }
 
     .sns {
@@ -458,11 +460,6 @@ svg:hover path {
         top: 18px;
     }
 
-    .neon {
-        padding-top: 480px;
-        margin: 0;
-    }
-
     .gdl {
         font-size: 66px;
         padding-top: 140px;
@@ -474,7 +471,7 @@ svg:hover path {
     }
 
     .learn {
-        top: 1097px;
+        top: 910px;
         font-size: 20px;
         right: 55px;
     }
@@ -494,8 +491,11 @@ svg:hover path {
     .join {
         font-size: 22px;
         padding-top: 24px;
-        width: 90%;
         margin-left: 35px;
+    }
+
+    .share {
+        margin: 0;
     }
 
     .buy {
@@ -582,7 +582,8 @@ svg:hover path {
     @media(min-width: 1024px) {
 
         section {
-            padding: 100px 200px;
+            padding-top: 100px;
+            padding-bottom: 100px;
         }
 
         .navi {
@@ -621,70 +622,80 @@ svg:hover path {
             font-weight: 500;
         }
 
-        .neon {
-            padding-top: 230px;
-        }
-
         .gdl {
             padding-top: 250px;
             font-size: 80px;
-            width: 90%;
             padding-bottom: 20px;
+            display: inline-block;
+        }
+
+        .gdlg {
+            font-size: 80px;
+            display: inline-block;
         }
 
         .gdlp {
-            font-size: 24px;
+            display: block;
+            font-size: 40px;
         }
 
         .learn {
             font-size: 25px;
             border: 5px solid var(--color-blue);
-            top: 1026px;
+            top: 1430px;
         }
 
         .pink {
-            margin-top: 80px;
+            margin-top: 120px;
             margin-left: -200px;
             margin-right: -200px;
-            padding-bottom: 30px;
+            margin-bottom: 100px;
+            padding-bottom: 40px;
+            padding-top: 40px;
+
         }
 
         .date {
-            font-size: 40px;
+            font-size: 50px;
             line-height: 0.3;
         }
 
         .location {
-            font-size: 24px;
+            font-size: 30px;
             letter-spacing: 1px;
         }
 
         .join {
-            font-size: 30px;
-            width: 110%;
-            margin-left: -20px;
+            font-size: 40px;
+            font-weight: 500;
         }
 
         .buy {
-            font-size: 60px;
-            margin-left: -300px;
-            margin-right: -300px;
-            padding-right: 250px;
-            padding-left: 250px;
-            margin-top: 100px;
+            font-size: 80px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 100px;
+            margin-top: 130px;
             margin-bottom: 120px;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
         }
 
         .speakers {
-            font-size: 60px;
+            font-size: 90px;
         }
 
         .more {
             bottom: 280px;
         }
 
-        .schedules {
-            font-size: 60px;
+        .schedule {
+            font-size: 90px;
+        }
+
+        .meet {
+            font-size: 30px;
         }
 
         .schedule-row {
@@ -692,8 +703,12 @@ svg:hover path {
             padding-right: 30px;
         }
 
-        heading {
-            padding-bottom: 10px;
+        .time {
+            width: 13%;
+        }
+
+        header {
+            padding-bottom: 30px;
         }
 
         .sns {
