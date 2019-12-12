@@ -552,7 +552,7 @@ svg:hover path {
     }
 
     .time {
-        padding-right: 30px;
+        padding-right: 10px;
         padding-left: 10px;
         line-height: 2;
         padding-bottom: 50px;
@@ -579,6 +579,21 @@ svg:hover path {
 
     .cwrite {
         font-size: 16px;
+    }
+
+    /* ======== */
+    @media(min-width: 750px) {
+        .sns {
+            top: 4350px
+        }
+    }
+
+    /* =============================== */
+    @media(min-width: 800px) {
+
+        .sns {
+            top: 4400px;
+        }
     }
 
     /* ===========================================================================
@@ -736,14 +751,14 @@ svg:hover path {
         }
 
         .time {
-            width: 13%;
-            padding-top: 60px;
-            padding-bottom: 60px;
+            width: 20%;
+            padding-top: 30px;
+            padding-bottom: 30px;
             font-size: 28px;
         }
 
         .six .time {
-            padding-top: 130px;
+            padding-top: 100px;
             padding-bottom: 130px;
         }
 
@@ -763,4 +778,16 @@ svg:hover path {
 
         .cwrite {
             font-size: 20px;
+        }
+
+        /* ============================= */
+        @media(min-width: 1200px) {
+            .learn {
+                font-size: 30px;
+                top: 1230px;
+            }
+
+            .sns {
+                top: 5000px;
+            }
         }
