@@ -171,6 +171,10 @@ li a {
     border: 3px solid rgb(130, 186, 255);
 }
 
+/* .wrapper {
+    bottom: 0;
+} */
+
 /* <p> */
 .pink {
     background-color: var(--color-pink);
@@ -257,6 +261,10 @@ li a {
     padding-bottom: 80px;
     vertical-align: top;
     /* defult - bottom */
+}
+
+.speaker-list li:hover {
+    opacity: 80%;
 }
 
 .pic {
@@ -661,7 +669,7 @@ svg:hover path {
         .learn {
             font-size: 25px;
             border: 5px solid var(--color-blue);
-            top: 1150px;
+            /* top: 1150px; */
         }
 
         .pink {
