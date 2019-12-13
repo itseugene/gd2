@@ -77,21 +77,23 @@ body {
 
 .navi li {
     display: inline;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 li a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .left {
     border-left: 1px solid white;
-    padding-left: 26px;
+    padding-left: 16px;
 }
 
-
+.click {
+    padding-left: 20px;
+}
 
 .click:hover {
     color: yellow;
@@ -163,7 +165,7 @@ li a {
     padding-bottom: 5px;
     position: absolute;
     right: 20px;
-    top: 694px;
+    /* top: 694px; */
 }
 
 .learn:hover {
@@ -171,9 +173,10 @@ li a {
     border: 3px solid rgb(130, 186, 255);
 }
 
-/* .wrapper {
+.wrapper {
     bottom: 0;
-} */
+    position: relative;
+}
 
 /* <p> */
 .pink {
@@ -310,6 +313,7 @@ li a {
     text-decoration: none;
     right: 35px;
     bottom: 250px;
+    z-index: 1;
 }
 
 .more:hover {
@@ -415,13 +419,12 @@ svg:hover path {
     display: inline;
 }
 
-
 /* ========================================================
 ============================================================ */
 @media(min-width:520px) {
 
-    .learn {
-        top: 700px;
+    li a {
+        font-size: 18px;
     }
 
     .join {
@@ -430,13 +433,6 @@ svg:hover path {
         padding-right: 63px;
     }
 
-}
-
-/* =============== */
-@media(min-width: 600px) {
-    .learn {
-        top: 740px;
-    }
 }
 
 /* +=======================================================================
@@ -481,7 +477,7 @@ svg:hover path {
     }
 
     .learn {
-        top: 910px;
+        /* top: 910px; */
         font-size: 20px;
         right: 55px;
     }
@@ -577,7 +573,7 @@ svg:hover path {
     }
 
     .sns {
-        top: 4250px;
+        /* top: 4250px; */
         right: 60px;
     }
 
@@ -589,24 +585,10 @@ svg:hover path {
         font-size: 16px;
     }
 
-    /* ======== */
-    @media(min-width: 750px) {
-        .sns {
-            top: 4350px
-        }
-    }
-
-    /* =============================== */
-    @media(min-width: 800px) {
-
-        .sns {
-            top: 4400px;
-        }
-    }
 
     /* ===========================================================================
 ============================================================================ */
-    @media(min-width: 1024px) {
+    @media(min-width: 920px) {
 
         section {
             padding-top: 100px;
@@ -776,7 +758,7 @@ svg:hover path {
         }
 
         .sns {
-            top: 5050px;
+            /* top: 5050px; */
             right: 80px;
         }
 
@@ -786,16 +768,4 @@ svg:hover path {
 
         .cwrite {
             font-size: 20px;
-        }
-
-        /* ============================= */
-        @media(min-width: 1200px) {
-            .learn {
-                font-size: 30px;
-                top: 1230px;
-            }
-
-            .sns {
-                top: 5000px;
-            }
         }
