@@ -433,6 +433,14 @@ svg:hover path {
         padding-right: 63px;
     }
 
+    .more {
+        font-size: 12px;
+        width: 60px;
+        height: 60px;
+        padding-top: 16px;
+        padding-left: 9px;
+    }
+
 }
 
 /* +=======================================================================
@@ -523,12 +531,12 @@ svg:hover path {
     }
 
     .more {
-        font-size: 13px;
+        font-size: 16px;
         height: 71px;
         width: 70px;
         right: 30px;
-        bottom: 260px;
-        padding-top: 21px;
+        bottom: 275px;
+        padding-top: 17px;
         padding-left: 12px;
     }
 
@@ -588,7 +596,7 @@ svg:hover path {
 
     /* ===========================================================================
 ============================================================================ */
-    @media(min-width: 920px) {
+    @media(min-width: 960px) {
 
         section {
             padding-top: 100px;
