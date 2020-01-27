@@ -34,7 +34,7 @@ body {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 19.5px;
+    font-size: 21px;
     line-height: 16.px;
     position: relative;
     margin-bottom: 50px;
@@ -70,9 +70,11 @@ p {
         0px 12px 24px rgba(0, 0, 0, 40%);
     /* above, 0px horizontal, 12px to the bottom 24px spread */
     min-width: 500px;
-    max-width: 548px;
-    margin-left: auto;
+    max-width: 570px;
+    margin-left: 100px;
     margin-right: auto;
+    margin-top: 40px;
+    display: inline-block;
 }
 
 h3 {
@@ -83,15 +85,16 @@ h3 {
 
 .short {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 10.5px;
-    font-weight: 300;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
     color: rgb(122, 122, 59);
 }
 
 .cost {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 17.2px;
+    font-size: 20px;
     color: rgba(109, 82, 82, 74%);
     float: right;
     margin: 0;
@@ -157,15 +160,15 @@ a {
 
 .box {
     font-family: 'Roboto', sans-serif;
-    font-size: 10.5px;
+    font-size: 11px;
     text-align: center;
     margin-bottom: 10.6px;
     color: white;
     background-color: rgba(170, 173, 114, 69%);
-    padding-top: 9px;
-    padding-bottom: 10px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
 }
 
@@ -178,17 +181,17 @@ svg {
 
 .nobox {
     font-family: 'Roboto', sans-serif;
-    font-size: 10.3px;
+    font-size: 11px;
     text-align: center;
     font-weight: medium;
     color: rgb(66, 30, 35);
     border: 0.5px solid rgb(170, 173, 114);
     display: inline;
+    margin-top: 17px;
     padding-top: 9px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 9.5px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+    padding-right: 11px;
     display: inline-block;
     text-decoration: none;
-
 }
