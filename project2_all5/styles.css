@@ -55,7 +55,7 @@ p {
 
 .container {
     background-color: rgb(245, 245, 232);
-    height: 714.483px;
+    height: 725px;
     /* width: 548px; */
     position: relative;
     border-top-right-radius: 55.5px;
@@ -69,11 +69,11 @@ p {
         /* above, 12px to the right, 0px to the top 24px spread */
         0px 12px 24px rgba(0, 0, 0, 40%);
     /* above, 0px horizontal, 12px to the bottom 24px spread */
-    min-width: 500px;
+    min-width: 548px;
     max-width: 570px;
-    margin-left: 100px;
-    margin-right: auto;
     margin-top: 40px;
+    margin-left: 80px;
+    align-content: center;
     display: inline-block;
 }
 
@@ -185,12 +185,12 @@ svg {
     text-align: center;
     font-weight: medium;
     color: rgb(66, 30, 35);
-    border: 0.5px solid rgb(170, 173, 114);
+    border: 1px solid rgb(170, 173, 114);
     display: inline;
     margin-top: 17px;
     padding-top: 9px;
     padding-bottom: 11px;
-    padding-left: 18px;
+    padding-left: 17px;
     padding-right: 11px;
     display: inline-block;
     text-decoration: none;
