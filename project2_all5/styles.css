@@ -221,8 +221,35 @@ svg {
         min-width: 300px;
         margin-left: 15px;
     }
+}
+
+.wrapper {
+    width: 580px;
+    margin: 0 auto;
+}
+
+@media(max-width: 580px) {
+    .wrapper {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+
+/* ==================================== */
+@media(min-width: 1180px) {
+    .wrapper {
+        width: 1180px;
+        margin: 0 auto;
+    }
 
 }
 
-/* ==================================== */
+@media(min-width: 1870px) {
+    .wrapper {
+        width: 1870px;
+        margin: 0 auto;
+    }
+}
+
 @media(min-width: 720px) {}
