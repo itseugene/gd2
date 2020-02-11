@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:300,400,500,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.u-button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+body {
+    color: rgb(66, 30, 35);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(88, 52, 56);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 16.px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 10.5px;
+    line-height: 16.5px;
+    font-weight: light;
+    color: rgb(88, 52, 56);
+    border-top: 0.5px solid rgb(88, 52, 56);
+    padding-top: 5px;
+    letter-spacing: 0.6px;
+    margin-top: 3px;
+}
+
+.container {
+    background-color: rgb(245, 245, 232);
+    height: 725px;
+    /* width: 548px; */
+    position: relative;
+    border-top-right-radius: 55.5px;
+    border-top-left-radius: 55.5px;
+    border-bottom-right-radius: 55.5px;
+    box-shadow: -3px 0px 10px rgba(0, 0, 0, 40%),
+        /* above, -3px to the left, 0px to the top 10px spread */
+        3px 0px 10px rgba(0, 0, 0, 40%),
+        /* above, 3px to the right, 0px to the top 10px spread */
+        12px 0px 24px rgba(0, 0, 0, 40%),
+        /* above, 12px to the right, 0px to the top 24px spread */
+        0px 12px 24px rgba(0, 0, 0, 40%);
+    /* above, 0px horizontal, 12px to the bottom 24px spread */
+    min-width: 548px;
+    max-width: 570px;
+    margin-top: 40px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+h3 {
+    display: inline;
+    /* position: relative;
+    bottom: -22.5px; */
+}
+
+.short {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    color: rgb(122, 122, 59);
+}
+
+.cost {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgba(109, 82, 82, 74%);
+    float: right;
+    margin: 0;
+}
+
+.logo {
+    width: 157.3px;
+    height: 49.1835px;
+    position: absolute;
+    top: 31.2px;
+    left: 29.7px;
+    z-index: 1;
+}
+
+.product {
+    position: relative;
+    float: bottom;
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 55.5px;
+    border-top-left-radius: 55.5px;
+    display: block;
+}
+
+.left,
+.right {
+    display: inline-block;
+}
+
+.left {
+    margin-left: 15px;
+    width: 70%;
+}
+
+.right {
+    width: 20%;
+    vertical-align: top;
+    text-align: right;
+    position: relative;
+    right: -23px;
+}
+
+a {
+    position: relative;
+    width: 98.3px;
+    height: 32px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.box:hover,
+.nobox:hover,
+.withsvg:hover path {
+    color: white;
+    background-color: rgb(119, 119, 83);
+    fill: white;
+}
+
+/* svg:hover path {
+    fill: white;
+} */
+
+.box {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 10.6px;
+    color: white;
+    background-color: rgba(170, 173, 114, 69%);
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+svg {
+    height: 6.342px;
+    margin-left: 1px;
+    display: inline-block;
+    fill: rgb(66, 30, 35);
+}
+
+.nobox {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    font-weight: medium;
+    color: rgb(66, 30, 35);
+    border: 1px solid rgb(170, 173, 114);
+    display: inline;
+    margin-top: 17px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    padding-left: 17px;
+    padding-right: 11px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* ================================================ */
+@media(min-width: 375px) {
+
+    h2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 10.5px;
+        line-height: 16.5px;
+        font-weight: light;
+        color: rgb(88, 52, 56);
+        border-top: 0.5px solid rgb(88, 52, 56);
+        padding-top: 5px;
+        letter-spacing: 0.6px;
+        margin-top: 3px;
+    }
+
+    .container {
+        height: auto;
+        min-width: 300px;
+        margin-left: 15px;
+    }
+}
+
+.wrapper {
+    width: 580px;
+    margin: 0 auto;
+}
+
+@media(max-width: 580px) {
+    .wrapper {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+
+/* ==================================== */
+@media(min-width: 1180px) {
+    .wrapper {
+        width: 1180px;
+        margin: 0 auto;
+    }
+
+}
+
+@media(min-width: 1870px) {
+    .wrapper {
+        width: 1870px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 720px) {}
