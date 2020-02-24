@@ -1,0 +1,779 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white: #E5FFE1;
+    --color-pink: #EF2BB3;
+    --color-blue: #4097FF;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
+section {
+    padding: 100px 30px;
+    /* gap between headings and sections */
+}
+
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+.body {
+    background-image: url("images/origin.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100%;
+    margin-top: 30px;
+    margin: 0;
+}
+
+.login {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: var(--color-pink);
+    border-radius: 50%;
+    display: inline;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    top: 65px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.login:hover {
+    background-color: purple;
+}
+
+.navi {
+    list-style: none;
+    margin: auto;
+    padding-left: 44px;
+    padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(239, 43, 180, 0.2);
+    margin-left: -30px;
+    margin-right: -30px;
+    position: relative;
+    margin-top: -80px;
+}
+
+.navi li {
+    display: inline;
+    padding-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.left {
+    border-left: 1px solid white;
+    padding-left: 16px;
+}
+
+.click {
+    padding-left: 20px;
+}
+
+.click:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* .gradient {  */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#111d27+0,000000+100 */
+/* background: #111d27; */
+/* Old browsers */
+/* background: -moz-linear-gradient(top, #111d27 0%, #000000 100%); */
+/* FF3.6-15 */
+/* background: -webkit-linear-gradient(top, #111d27 0%, #000000 100%); */
+/* Chrome10-25,Safari5.1-6 */
+/* background: linear-gradient(to bottom, #111d27 0%, #000000 100%); */
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#111d27', endColorstr='#000000', GradientType=0); */
+/* IE6-9 */
+
+/* } */
+
+.big {
+    width: 18px;
+    height: auto;
+    position: absolute;
+    top: 22px;
+    left: 16px;
+}
+
+.neon {
+    width: 100%;
+    padding-top: 320px;
+}
+
+.gdl {
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color-white);
+    display: block;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.gdlg {
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color-white);
+    display: block;
+    margin: 0;
+}
+
+.gdlp {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-white);
+    display: inline;
+    margin: 0;
+}
+
+.learn {
+    color: var(--color-blue);
+    font-weight: 500;
+    font-size: 16px;
+    border: 3px solid var(--color-blue);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    right: 20px;
+    /* top: 694px; */
+}
+
+.learn:hover {
+    color: rgb(130, 186, 255);
+    border: 3px solid rgb(130, 186, 255);
+}
+
+.wrapper {
+    bottom: 0;
+    position: relative;
+}
+
+/* <p> */
+.pink {
+    background-color: var(--color-pink);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 50px;
+}
+
+.date {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 0;
+    padding-top: 10px;
+}
+
+
+.location {
+    text-align: center;
+    font-weight: 300;
+    font-size: 23px;
+    /* background-color: #EF2BB3; */
+}
+
+
+.join {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.share {
+    margin-top: 10px;
+}
+
+.buy {
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    color: white;
+    margin-top: -80px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    background: rgb(249, 178, 228);
+    background: linear-gradient(86deg, rgba(249, 178, 228, 1) 0%, rgba(250, 191, 233, 1) 14%, rgba(239, 43, 179, 1) 60%, rgba(20, 29, 39, 1) 180%);
+}
+
+.buy:hover {
+    background: white;
+    color: var(--color-pink);
+}
+
+/* speakers */
+
+.speakers {
+    margin-top: -130px;
+    padding-bottom: 90px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.speaker-list {
+    list-style: none;
+    /* padding-left: 0; */
+    margin: auto;
+    padding-left: 0;
+}
+
+.speaker-list li {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 80px;
+    vertical-align: top;
+    /* defult - bottom */
+}
+
+.speaker-list li:hover {
+    opacity: 80%;
+}
+
+.pic {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.pic:hover {
+    opacity: 80%;
+    /* border: 2px solid white;
+    border-radius: 30%; */
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 8px;
+}
+
+.more {
+    font-size: 8px;
+    font-weight: 400;
+    position: absolute;
+    background-image: url(images/icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 41px;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 7px;
+    color: var(--color-white);
+    line-height: 1.2;
+    text-decoration: none;
+    right: 35px;
+    bottom: 250px;
+    z-index: 1;
+}
+
+.more:hover {
+    color: red;
+}
+
+/* schedules */
+
+.schedule {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: -100px;
+}
+
+.meet {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.table {
+    margin-top: -150px;
+}
+
+header {
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.content {
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+}
+
+.time {
+    border-right: 1px solid white;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    width: 110px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.schedule-row {
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+
+.six .time {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sns {
+    position: absolute;
+    right: 20px;
+    margin: 0;
+    /* top: 3050px; */
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+
+svg:hover path {
+    fill: var(--color-pink);
+    border-color: none;
+}
+
+
+/* copywrite */
+
+.copy {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.small {
+    display: inline;
+    margin-top: 200px;
+    width: 16px;
+}
+
+.cwrite {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    display: inline;
+}
+
+/* ========================================================
+============================================================ */
+@media(min-width:520px) {
+
+    li a {
+        font-size: 18px;
+    }
+
+    .join {
+
+        padding-left: 63px;
+        padding-right: 63px;
+    }
+
+    .more {
+        font-size: 12px;
+        width: 60px;
+        height: 60px;
+        padding-top: 16px;
+        padding-left: 9px;
+    }
+
+}
+
+/* +=======================================================================
+======================================================================= */
+@media(min-width: 720px) {
+
+    section {
+        padding: 100px 50px;
+    }
+
+    .big {
+        width: 25px;
+        top: 24px;
+        left: 36px;
+    }
+
+    .navi {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-left: -50px;
+        margin-right: -50px;
+        padding-left: 80px;
+    }
+
+
+    .left {
+        padding-left: 30px;
+    }
+
+    .login {
+        top: 18px;
+    }
+
+    .gdl {
+        font-size: 66px;
+        padding-top: 140px;
+        padding-bottom: 10px;
+    }
+
+    .gdlp {
+        font-size: 20px;
+    }
+
+    .learn {
+        /* top: 910px; */
+        font-size: 20px;
+        right: 55px;
+    }
+
+    .pink {
+        padding-top: 17px;
+        padding-bottom: 15px;
+        margin-left: -50px;
+        margin-right: -50px;
+        margin-top: 100px;
+    }
+
+    .date {
+        font-size: 30px;
+    }
+
+    .join {
+        font-size: 22px;
+        padding-top: 24px;
+        margin-left: 35px;
+    }
+
+    .share {
+        margin: 0;
+    }
+
+    .buy {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 45px;
+        font-weight: 500;
+        border-radius: 50px;
+        margin-bottom: 100px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .info {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+
+    .more {
+        font-size: 16px;
+        height: 71px;
+        width: 70px;
+        right: 30px;
+        bottom: 275px;
+        padding-top: 17px;
+        padding-left: 12px;
+    }
+
+    .table {
+        margin-30px;
+    }
+
+    .schedule {
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+
+    .meet {
+        font-size: 23px;
+        padding-bottom: 90px;
+    }
+
+    header {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .schedule-row {
+        border-bottom: 2px solid white;
+    }
+
+    .time {
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 2;
+        padding-bottom: 50px;
+    }
+
+    .six .time {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+
+    .content {
+        padding-left: 40px;
+        font-size: 23px;
+    }
+
+    .sns {
+        /* top: 4250px; */
+        right: 60px;
+    }
+
+    .icon {
+        width: 34px;
+    }
+
+    .cwrite {
+        font-size: 16px;
+    }
+
+
+    /* ===========================================================================
+============================================================================ */
+    @media(min-width: 960px) {
+
+        section {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .navi {
+            padding-left: 210px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            /* margin-left: -200px; */
+            margin-right: -200px;
+            margin-top: -80px;
+        }
+
+        .navi li {
+            padding-right: 30px;
+        }
+
+        li a {
+            font-size: 30px;
+        }
+
+        .left {
+            padding-left: 40px;
+        }
+
+        .big {
+            width: 30px;
+            left: 120px;
+            top: 33px;
+        }
+
+        .login {
+            width: 70px;
+            height: 70px;
+            top: 22px;
+            font-size: 20px;
+            padding-top: 10px;
+            font-weight: 500;
+        }
+
+        .gdl {
+            padding-top: 250px;
+            font-size: 80px;
+            padding-bottom: 20px;
+            display: inline-block;
+        }
+
+        .gdlg {
+            font-size: 80px;
+            display: inline-block;
+        }
+
+        .gdlp {
+            display: block;
+            font-size: 40px;
+        }
+
+        .learn {
+            font-size: 25px;
+            border: 5px solid var(--color-blue);
+            /* top: 1150px; */
+        }
+
+        .pink {
+            margin-top: 120px;
+            margin-left: -200px;
+            margin-right: -200px;
+            margin-bottom: 100px;
+            padding-bottom: 40px;
+            padding-top: 40px;
+
+        }
+
+        .date {
+            font-size: 50px;
+            line-height: 0.3;
+        }
+
+        .location {
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+
+        .join {
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        .buy {
+            font-size: 80px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 100px;
+            margin-top: 130px;
+            margin-bottom: 120px;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+        }
+
+        .speakers {
+            font-size: 90px;
+            margin-bottom: 80px;
+        }
+
+        .speaker-list li {
+            display: inline-block;
+            width: 23%;
+        }
+
+        .more {
+            font-size: 15px;
+            width: 80px;
+            height: 80px;
+            padding-top: 23px;
+            bottom: 280px;
+        }
+
+        .name {
+            font-size: 24px;
+
+        }
+
+        .info {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .schedule {
+            font-size: 90px;
+        }
+
+        .meet {
+            font-size: 35px;
+        }
+
+        header {
+            font-size: 30px;
+            font-weight: 500;
+            padding-bottom: 30px;
+            border-bottom: 5px solid white;
+        }
+
+        .schedule-row {
+            border-bottom: 2px solid white;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .time {
+            width: 20%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .six .time {
+            padding-top: 100px;
+            padding-bottom: 130px;
+        }
+
+        .content {
+            font-size: 28px;
+            padding-left: 50px;
+        }
+
+        .sns {
+            /* top: 5050px; */
+            right: 80px;
+        }
+
+        .icon {
+            width: 50px;
+        }
+
+        .cwrite {
+            font-size: 20px;
+        }
